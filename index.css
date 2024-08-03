@@ -1,0 +1,460 @@
+body {
+    background-color: #081b29;
+  }
+  
+  header {
+    color: #fff;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 89px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Add transition for color change */
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .titlenav {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline;
+    margin: 0 89px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: -80%;
+    top: -45px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Add transition for color change */
+  }
+  
+  nav ul li a:hover {
+    color: #3582bb; /* Change color on hover for anchor tags */
+  }
+  
+  .titlenav:hover {
+    color: #3582bb;
+  }
+  .title{
+    font-size: 49px;
+    font-weight: 600;
+    color: white;
+  }
+  .job{
+    font-size: 30px;
+    color: #3582bb;
+    font-weight: 600;
+  }
+  .hire{
+    width: 107px;
+    height: 40px;
+    border: none;
+    background-color: #3582bb;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    top: 29px;
+    left: -11px;
+  }
+  .talk{
+    width: 107px;
+    height: 40px;
+    background-color: #081b29;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #3582bb;
+    border-color: #3582bb;
+    cursor: pointer;
+     border: solid ;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    top: 29px;
+  }
+  .content{
+    position: absolute;
+    left: 18%;
+    top: 33%;
+  }
+  .content button{
+    margin: 0 15px;
+  }
+  .talk:hover{
+    width: 107px;
+    height: 40px;
+    border: none;
+    background-color: #3582bb;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+  }
+  .hire:hover{
+    width: 107px;
+    height: 40px;
+    background-color: #081b29;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #3582bb;
+    border-color: #3582bb;
+    cursor: pointer;
+    border: solid ;
+  }
+  .skills{
+    font-size: 23px;
+    color: #3582bb;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .projectstitle{
+    font-size: 66px;
+    text-decoration-line: underline;
+    text-decoration-color: #3582bb;
+    color: white;
+    position: relative;
+    left: 79px;
+  }
+  .projects{
+    position: absolute;
+    top: 66%;
+    left: 39%;
+  }
+  .projectone{
+    position: absolute;
+    left: -279%;
+    top: 136%;
+  }
+  .projectoneimg{
+    width: 272px;
+    border-radius: 10px;
+  }
+  .projectonetitle{
+    color: #3582bb;
+        font-size: 31px;
+  }
+  .projectoneskills{
+    color: #3582bb;
+    font-size: 23px;
+  }
+  .projectonelink{
+      width: 264px;
+      height: 40px;
+      border: none;
+      background-color: #3582bb;
+      font-size: 19px;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+  }
+  .projecttwo{
+    position: absolute;
+    left: -126%;
+    top: 136%;
+  }
+  .projecttwoimg{
+    width: 272px;
+    height: 151px;
+    border-radius: 10px;
+  }
+  .projecttwotitle{
+    color: #3582bb;
+        font-size: 31px;
+  }
+  .projecttwoskills{
+    color: #3582bb;
+    font-size: 23px;
+  }
+  .projecttwolink{
+      width: 264px;
+      height: 40px;
+      border: none;
+      background-color: #3582bb;
+      font-size: 19px;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+  }
+  .projectthree{
+    position: absolute;
+    left: 27%;
+    top: 136%;
+  }
+  .projectthreeimg{
+    width: 272px;
+    height: 151px;
+    border-radius: 10px;
+  }
+  .projectthreetitle{
+    color: #3582bb;
+        font-size: 31px;
+  }
+  .projectthreeskills{
+    color: #3582bb;
+    font-size: 23px;
+  }
+  .projectthreelink{
+      width: 264px;
+      height: 40px;
+      border: none;
+      background-color: #3582bb;
+      font-size: 19px;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+  }
+  .projectfour{
+    position: absolute;
+    left: 179%;
+    top: 136%;
+  }
+  .projectfourimg{
+    width: 272px;
+    height: 151px;
+    border-radius: 10px;
+  }
+  .projectfourtitle{
+    color: #3582bb;
+        font-size: 31px;
+  }
+  .projectfourskills{
+    color: #3582bb;
+    font-size: 23px;
+  }
+  .projectfourlink{
+      width: 264px;
+      height: 40px;
+      border: none;
+      background-color: #3582bb;
+      font-size: 19px;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+  }
+  .projectfive{
+    position: absolute;
+    left: 331%;
+    top: 136%;
+  }
+  .projectfiveimg{
+    width: 272px;
+    height: 151px;
+    border-radius: 10px;
+  }
+  .projectfivetitle{
+    color: #3582bb;
+        font-size: 31px;
+  }
+  .projectfiveskills{
+    color: #3582bb;
+    font-size: 23px;
+  }
+  .projectfivelink{
+      width: 264px;
+      height: 40px;
+      border: none;
+      background-color: #3582bb;
+      font-size: 19px;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+  }
+  .projectfivelink:hover {
+     width: 264px;
+     height: 40px;
+     background-color: #081b29;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     color: #3582bb;
+     border-color: #3582bb;
+     cursor: pointer;
+     border: solid ;
+  }
+  .projectfourlink:hover {
+     width: 264px;
+     height: 40px;
+     background-color: #081b29;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     color: #3582bb;
+     border-color: #3582bb;
+     cursor: pointer;
+     border: solid ;
+  }
+  .projectthreelink:hover {
+     width: 264px;
+     height: 40px;
+     background-color: #081b29;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     color: #3582bb;
+     border-color: #3582bb;
+     cursor: pointer;
+     border: solid ;
+  }
+  .projecttwolink:hover {
+     width: 264px;
+     height: 40px;
+     background-color: #081b29;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     color: #3582bb;
+     border-color: #3582bb;
+     cursor: pointer;
+     border: solid ;
+  }
+  .projectonelink:hover {
+     width: 264px;
+     height: 40px;
+     background-color: #081b29;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     color: #3582bb;
+     border-color: #3582bb;
+     cursor: pointer;
+     border: solid ;
+  }
+  .projectsix{
+    position: absolute;
+    left: -279%;
+    top: 513%;
+  }
+  .projectsiximg{
+    width: 272px;
+    border-radius: 10px;
+  }
+  .projectsixtitle{
+    color: #3582bb;
+        font-size: 31px;
+  }
+  .projectsixskills{
+    color: #3582bb;
+    font-size: 23px;
+  }
+  .projectsixlink{
+      width: 264px;
+      height: 40px;
+      border: none;
+      background-color: #3582bb;
+      font-size: 19px;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out;
+  }
+  .projectsixlink:hover {
+     width: 264px;
+     height: 40px;
+     background-color: #081b29;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     color: #3582bb;
+     border-color: #3582bb;
+     cursor: pointer;
+     border: solid ;
+  }
+  @media (max-width: 1200px) {
+    .project {
+      flex: 1 1 calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .titlenav {
+      display: block;
+      margin: 20px 0;
+    }
+  
+    .project {
+      flex: 1 1 calc(50% - 20px);
+    }
+  
+    .projectstitle {
+      font-size: 48px;
+    }
+  
+    .project img {
+      max-width: 100%;
+    }
+  
+    .project .title, .project .skills {
+      font-size: 24px;
+    }
+  
+    .project .link {
+      width: 100%;
+      max-width: 264px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 36px;
+    }
+  
+    .job {
+      font-size: 24px;
+    }
+  
+    .skills {
+      font-size: 18px;
+    }
+  
+    .projectstitle {
+      font-size: 36px;
+    }
+  
+    .project {
+      flex: 1 1 100%;
+    }
+  
+    .project .title, .project .skills {
+      font-size: 20px;
+    }
+  
+    .project .link {
+      font-size: 16px;
+    }
+  }
